@@ -1,0 +1,146 @@
+/* ===== Estilos generales ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+/* ===== Navbar ===== */
+.navbar {
+    background-color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar .navbar-brand {
+    color: #3f3f3f;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    list-style: none; /* quita los puntos */
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    list-style: none; /* asegura que los li no tengan puntos */
+}
+
+.navbar-nav .nav-link {
+    color: #223dd3;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #2e2e2e;
+}
+
+/* ===== Contenedor principal ===== */
+main.container {
+    justify-content: center;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.ventas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ===== Tablas ===== */
+table {
+    width: 100%;
+    justify-content: center;
+    max-width: 700px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #ffffff;
+    color: #303030;
+    font-weight: 600;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* ===== Botones ===== */
+button, .btn {
+    background-color: #223dd3;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: #272727;
+}
+
+/* ===== Alertas ===== */
+.alert {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.alert-danger {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+/* ===== Formularios ===== */
+input, select, textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+label {
+    font-weight: 500;
+}
+
